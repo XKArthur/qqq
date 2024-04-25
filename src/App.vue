@@ -42,7 +42,7 @@
       <div class="titlebg">
         <div class="labEmail">E-mail: business@talecast.ai</div>
         <div class="fra">
-          <div class="closeicon"></div>
+          <div class="closeicon" @click="closeBtn"></div>
         </div>
       </div>
     </div>
@@ -64,6 +64,9 @@ export default {
   methods: {
     showMsg() {
       this.show = true
+    },
+    closeBtn(){
+      this.show = false
     }
   }
 }
@@ -214,5 +217,6 @@ export default {
   height: 24px;
   margin-left: 75px;
   margin-top: -176px;
+  cursor: pointer;
 }
 </style>
