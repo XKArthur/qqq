@@ -40,7 +40,8 @@
     <div v-if="show" class="BgFrame">
       <div class="MeshBg"></div>
       <div class="titlebg">
-        <div class="labEmail">E-mail: business@talecast.ai</div>
+        <div class="labEmail">E-mail: business@talecast.ai
+          Contact number:(307)301-7154</div>
         <div class="fra">
           <div class="closeicon" @click="closeBtn"></div>
         </div>
@@ -200,10 +201,12 @@ export default {
 }
 
 .labEmail {
-  font-size: 24px;
+  width: 319px;
+  font-size: 20px;
   font-weight: 700;
   color: #000;
   margin-top: 160px;
+  text-align: center;
 }
 
 .fra {
