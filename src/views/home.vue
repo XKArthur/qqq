@@ -158,7 +158,7 @@
 export default {
   data() {
     return {
-      activeNames: ["1"],
+      activeNames: [],
       show: false,
     };
   },
