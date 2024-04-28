@@ -248,6 +248,8 @@ export default {
           border: 0;
           background-color: #f4f4f4;
           padding: 0px 20px;
+          font-size: 20px;
+          font-weight: 700px;
           font-weight: bold;
         }
         .el-collapse-item__wrap {
@@ -258,7 +260,8 @@ export default {
           padding: 0px 30px 20px 30px;
           border-radius: 0px 0px 10px 10px;
           background-color: #f4f4f4;
-          font-weight: 200;
+          font-weight: 400;
+          font-size: 20px;
         }
       }
     }
