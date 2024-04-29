@@ -2,6 +2,7 @@
   <div class="content-index">
     <div class="topImg">
       <img src="../assets/first.jpg" />
+      <img src="../assets/focus.png" />
       <img src="../assets/socend.jpg" />
       <img src="../assets/third.jpg" />
       <img src="../assets/fourth.jpg" />
@@ -129,7 +130,7 @@
         <div class="rightBotm">
           <div class="labT">Contact Us</div>
           <div class="labtitus">Email:</div>
-          <div class="labus"></div>
+          <div class="labus">business@talecast.ai</div>
           <div class="labtitus">Contact number:</div>
           <div class="labus">(307)301-7154</div>
           <div class="labtitus">
@@ -359,7 +360,7 @@ export default {
       font-size: 20px;
       font-weight: 700;
       color: #000;
-      margin-top: 160px;
+      margin-top: 190px;
       text-align: center;
     }
 
