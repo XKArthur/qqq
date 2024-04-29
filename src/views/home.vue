@@ -62,8 +62,8 @@
             Talecast offers various subscription plans to cater to different
             user needs and budgets:
           </div>
-          <div>* Basic Plan: $/month</div>
-          <div>* Professional Plan: $/month</div>
+          <div>* Basic Plan: 15$/month</div>
+          <div>* Professional Plan: 33$/month</div>
           <div>* Enterprise Plan: Custom pricing (contact sales)</div>
           <div>
             The plans differ in the number of features, storage space, and team
