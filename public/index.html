@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="./favicon.ico">
-    <title>talecast</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but talecast doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="icon" href="./favicon.ico" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<style>
+			* {
+				font-family: "Inter-medium", sans-serif;
+			}
+
+			@font-face {
+				font-family: "Inter-black";
+				src: url("../font/Inter-Black.ttf") format("truetype");
+				font-style: normal;
+			}
+			@font-face {
+				font-family: "Inter-bold";
+				src: url("../font/Inter-Bold.ttf") format("truetype");
+				font-style: normal;
+			}
+			@font-face {
+				font-family: "Inter-medium";
+				src: url("../font/Inter-Medium.ttf") format("truetype");
+				font-style: normal;
+			}
+
+			.inter-black {
+				font-family: "Inter-black";
+			}
+			.inter-bold {
+				font-family: "Inter-bold";
+			}
+			.inter {
+				font-family: "Inter-medium";
+			}
+		</style>
+		<title>talecast</title>
+	</head>
+	<body>
+		<noscript>
+			<strong>We're sorry but talecast doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+	</body>
 </html>
