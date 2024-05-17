@@ -8,22 +8,22 @@ const Home = () =>
 const Details = () =>
   import("../views/details.vue");
 const routes = [
+  // {
+  //   path: '/',
+  //   redirect: '/home'
+  // },
   {
-    path: '/',
-    redirect: '/home'
-  },
-  {
-    path: "/home",
+    path: "/",
     component: Home,
     meta: {
-      title: "talecast"
+      title: "Talecast"
     }
   },
   {
     path: "/details",
     component: Details,
     meta: {
-      title: "talecast"
+      title: "Talecast"
     }
   },
 ];
