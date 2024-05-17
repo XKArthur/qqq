@@ -8,13 +8,12 @@
 					</div>
 					<div class="navs items-center">
 						<div class="nav-item">Pricing</div>
-						<div class="nav-item">About</div>
 						<div class="nav-item">Log in</div>
 						<div class="nav-item py-3 px-4 bg-violet-500 text-white rounded-xl">Sign up</div>
 					</div>
 				</div>
 			</div>
-			<h1 class="text-7xl mt-40 inter-black tracking-tight">
+			<h1 class="mt-32 text-6xl inter-black tracking-tight">
 				Screen Recording,
 				<span class="colored"
 					>Simplified by AI
@@ -25,9 +24,9 @@
 				Creating high quality videos as easy as taking a note <br />
 				Simple and Powerful
 			</h2>
-			<div class="button-main inter-bold shadow-lg shadow-violet-500/20 " @click="showMsg">Try it for free</div>
+			<div class="button-main inter-bold shadow-lg shadow-violet-500/20" @click="showMsg">Try it for free</div>
 			<div class="hero-video">
-				<img src="../assets/Edit1.png" class="imgCCs" />
+				<video src="../assets/video/hero.mp4" width="100%" muted loop autoplay="true"></video>
 			</div>
 		</div>
 
@@ -77,13 +76,13 @@
 						</div>
 					</div>
 					<div class="halfR bg-purple-50">
-						<img loading="lazy" src="../assets/floor_img_01.png" class="img" />
+						<video src="../assets/video/floor_img_01.mp4" width="100%" muted loop autoplay></video>
 					</div>
 				</div>
 
 				<div class="floor">
 					<div class="halfR bg-teal-50">
-						<img loading="lazy" src="../assets/floor_img_02.png" class="img" />
+						<video src="../assets/video/floor_img_02.mp4" width="100%" muted loop autoplay></video>
 					</div>
 					<div class="halfF">
 						<div class="lines">
@@ -101,13 +100,13 @@
 						</div>
 					</div>
 					<div class="halfR bg-sky-50">
-						<img loading="lazy" src="../assets/floor_img_03.png" class="img" />
+						<video src="../assets/video/floor_img_03.mp4" width="100%" muted loop autoplay></video>
 					</div>
 				</div>
 
 				<div class="floor">
 					<div class="halfR bg-red-50">
-						<img loading="lazy" src="../assets/floor_img_04.png" class="img" />
+						<video src="../assets/video/floor_img_04.mp4" width="100%" muted loop autoplay></video>
 					</div>
 					<div class="halfF">
 						<div class="lines">
@@ -347,15 +346,14 @@ export default {
 		}
 
 		.button-main {
+			display: block;
 			position: relative;
 			margin-top: 2rem;
-			display: block;
-			max-width: 100%;
 			width: 276px;
-			height: 80px;
+			max-width: 100%;
 			color: #fff;
 			font-size: 1.5rem;
-			line-height: 80px;
+			line-height: 64px;
 			text-align: center;
 			overflow: hidden;
 			unicode-bidi: isolate;
@@ -388,24 +386,15 @@ export default {
 			display: flex;
 			justify-content: center;
 			flex-direction: column;
-			margin-top: 3.5rem;
+			margin-top: 6rem;
 			margin-bottom: 2rem;
-			padding: 0.625rem;
 			width: 100%;
-			max-width: 1020px;
+			max-width: 960px;
 			border-style: solid;
 			border-width: 10px;
 			border-radius: 30px;
 			border-color: rgba(166, 112, 255, 0.1);
-
-			.imgCCs {
-				width: 100%;
-				max-width: 100%;
-				height: auto;
-				display: block;
-				overflow-clip-margin: content-box;
-				overflow: clip;
-			}
+			overflow: hidden;
 		}
 	}
 
